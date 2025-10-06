@@ -307,7 +307,7 @@
             var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
             v.onload = function () {
                 window.voiceflow.chat.load({
-                    verify: { projectID: '68db8d26932a4e551d9c25ed' },
+                    verify: { projectID: '*******************' },
                     url: 'https://general-runtime.voiceflow.com',
                     versionID: 'production',
                     voice: {
@@ -322,22 +322,6 @@
                     },
                 });
 
-
-
-                // Hiding Voiceflow branding
-                
-                // const container = document.querySelector('#voiceflow-chat');
-
-                // const interval = setInterval(() => {
-                //     if (!container || !container.shadowRoot) return;
-
-                //     const brandingLink = container.shadowRoot.querySelector(".vfrc-footer .jsli361 a");
-                //     if (brandingLink) {
-                //         brandingLink.style.display = "none";
-                //         clearInterval(interval);
-                //         console.log(" Voiceflow branding hidden");
-                //     }
-                // }, 500);
             }
             v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
         })(document, 'script');
